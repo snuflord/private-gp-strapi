@@ -19,7 +19,7 @@
     "@strapi/plugin-i18n": "^4.15.0",
     "@strapi/plugin-users-permissions": "^4.15.0",
     "@strapi/provider-upload-cloudinary": "^4.25.9",
-    "@strapi/strapi": "^4.24.5",
+    "@strapi/strapi": "^4.25.13",
     "@strapi/utils": "^4.25.9",
     "@swc/core-win32-x64-msvc": "^1.7.21",
     "better-sqlite3": "8.6.0",
