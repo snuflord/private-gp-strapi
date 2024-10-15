@@ -1,39 +1,38 @@
 {
+  "name": "private-gp-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "nvm exec 18.12.1 && strapi develop",
+    "start": "nvm exec 18.12.1 && strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.0.5",
-    "fs-extra": "^10.0.0",
-    "lodash.set": "^4.3.2",
-    "mime-types": "^2.1.27",
-    "@strapi/strapi": "4.21.1",
-    "@strapi/plugin-users-permissions": "4.21.1",
-    "@strapi/plugin-i18n": "4.21.1",
-    "@strapi/plugin-cloud": "4.21.1",
+    "@strapi/plugin-cloud": "4.25.9",
+    "@strapi/plugin-i18n": "^4.15.0",
+    "@strapi/plugin-users-permissions": "^4.15.0",
+    "@strapi/provider-upload-cloudinary": "^4.25.9",
+    "@strapi/strapi": "^4.24.5",
+    "@strapi/utils": "^4.25.9",
+    "@swc/core-win32-x64-msvc": "^1.7.21",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "name": "my-app-name",
-  "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
-  "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
-  },
-  "devDependencies": {},
   "author": {
-    "name": "A Strapi developer"
+    "name": "Joe Brennan"
   },
   "strapi": {
-    "template": "blog"
-  },
-  "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
+    "uuid": "842735de-c5a7-44e5-bc56-e4ce6b66f319"
   },
   "license": "MIT"
 }
