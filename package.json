@@ -15,18 +15,17 @@
     "deploy": "strapi deploy"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.25.9",
-    "@strapi/plugin-i18n": "^4.15.0",
-    "@strapi/plugin-users-permissions": "^4.15.0",
-    "@strapi/provider-upload-cloudinary": "^4.25.9",
-    "@strapi/strapi": "^4.24.5",
-    "@strapi/utils": "^4.25.9",
-    "@swc/core-win32-x64-msvc": "^1.7.21",
-    "better-sqlite3": "8.6.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+  "@strapi/plugin-cloud": "^5.0.0",
+  "@strapi/plugin-users-permissions": "^5.0.0",
+  "@strapi/provider-upload-cloudinary": "^4.25.9",
+  "@strapi/strapi": "^5.0.0",
+  "@strapi/utils": "^5.0.0",
+  "@swc/core-win32-x64-msvc": "^1.7.21",
+  "better-sqlite3": "8.6.0",
+  "react": "^18.0.0",
+  "react-dom": "^18.0.0",
+  "react-router-dom": "^6.0.0",
+  "styled-components": "^6.0.0"
   },
   "author": {
     "name": "Joe Brennan"
