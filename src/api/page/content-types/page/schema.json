@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "pages",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "article",
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
     "description": ""
   },
   "options": {
@@ -12,13 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
     },
-    "description": {
-      "type": "blocks"
+    "Subtitle": {
+      "type": "string"
     },
-    "media": {
+    "Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Media": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -29,9 +40,12 @@
         "audios"
       ]
     },
+    "Description": {
+      "type": "richtext"
+    },
     "slug": {
       "type": "uid",
-      "targetField": "title",
+      "targetField": "Title",
       "required": true
     },
     "Youtube": {
